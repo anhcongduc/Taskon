@@ -1,0 +1,231 @@
+{
+  "ScriptName": "Login Taskon",
+  "Steps": [
+    {
+      "Name": "in Đóng Tab Khác",
+      "Target": null,
+      "Data": null,
+      "Option": null,
+      "GhiChu": null,
+      "Stt": 0
+    },
+    {
+      "Name": "Resize",
+      "Target": {
+        "PhanLoai": "Cửa Sổ Chính"
+      },
+      "Data": {
+        "KichThuoc": "400, 600",
+        "PercentW": 100,
+        "PercentH": 100
+      },
+      "Option": {
+        "TuyChon": "Default"
+      },
+      "GhiChu": null,
+      "Stt": 1
+    },
+    {
+      "Name": "Mở Link",
+      "Target": null,
+      "Data": {
+        "Tab": "Tab Hiện Tại",
+        "PhanLoai": "Input Link",
+        "GiaTri": "https://taskon.xyz/"
+      },
+      "Option": null,
+      "GhiChu": null,
+      "Stt": 2
+    },
+    {
+      "Name": "Gửi Phím",
+      "Target": {
+        "PhanLoai": "Cửa Sổ Indirect"
+      },
+      "Data": {
+        "PhanLoai": "Phím",
+        "GiaTri": "RETURN",
+        "TimeOut": 100
+      },
+      "Option": {
+        "isActive": false
+      },
+      "GhiChu": null,
+      "Stt": 3
+    },
+    {
+      "Name": "Tạm Nghỉ",
+      "Target": null,
+      "Data": {
+        "PhanLoai": "Time Cố Định",
+        "TimeOut": 10,
+        "DonVi": "Giây"
+      },
+      "Option": null,
+      "GhiChu": null,
+      "Stt": 4
+    },
+    {
+      "Name": "Click",
+      "Target": {
+        "PhanLoai": "Cửa Sổ Indirect"
+      },
+      "Data": {
+        "Index": 0,
+        "PhanLoai": "XPath",
+        "KieuGiaTri": "Input",
+        "GiaTri": "/html/body/div[1]/header/header/div/div[1]"
+      },
+      "Option": null,
+      "GhiChu": "Click login using xpath",
+      "Stt": 5
+    },
+    {
+      "Name": "Click",
+      "Target": {
+        "PhanLoai": "Cửa Sổ Indirect"
+      },
+      "Data": {
+        "Index": 0,
+        "PhanLoai": "XPath",
+        "KieuGiaTri": "Input",
+        "GiaTri": "/html/body/div[2]/div[2]/div/div[1]/div/div[6]/div"
+      },
+      "Option": null,
+      "GhiChu": "Click login using Xpath",
+      "Stt": 6
+    },
+    {
+      "Name": "Tạm Nghỉ",
+      "Target": null,
+      "Data": {
+        "PhanLoai": "Time Cố Định",
+        "TimeOut": 3,
+        "DonVi": "Giây"
+      },
+      "Option": null,
+      "GhiChu": null,
+      "Stt": 7
+    },
+    {
+      "Name": "Click",
+      "Target": {
+        "PhanLoai": "Cửa Sổ Phụ",
+        "ThongTin": {
+          "TuyChon": "Tiêu Đề Có Chứa Text",
+          "Text": "Zerion"
+        }
+      },
+      "Data": {
+        "PhanLoai": "Hình Ảnh Bất Kì Trong Thư Mục",
+        "GiaTri": "D:\\AutoBot\\Resources\\Capture\\Taskon\\Step 01 Click Continue With Zerion",
+        "PhamViTimKiem": "Full",
+        "PhamVi": "0, 0, 0, 0",
+        "ThoiGianTimKiem": 4,
+        "DoChinhXac": 80,
+        "NgoaiLe": "Default"
+      },
+      "Option": {
+        "DiemClick": "0, 0",
+        "KieuChuot": "Left",
+        "ChiemChuot": false,
+        "SoClick": 1,
+        "ThoiGianNghi": 100
+      },
+      "GhiChu": "Step 01 Click Continue with Zerion",
+      "Stt": 8
+    },
+    {
+      "Name": "Tạm Nghỉ",
+      "Target": null,
+      "Data": {
+        "PhanLoai": "Time Cố Định",
+        "TimeOut": 2,
+        "DonVi": "Giây"
+      },
+      "Option": null,
+      "GhiChu": null,
+      "Stt": 9
+    },
+    {
+      "Name": "Click",
+      "Target": {
+        "PhanLoai": "Cửa Sổ Phụ",
+        "ThongTin": {
+          "TuyChon": "Tiêu Đề Có Chứa Text",
+          "Text": "Zerion"
+        }
+      },
+      "Data": {
+        "PhanLoai": "Hình Ảnh Bất Kì Trong Thư Mục",
+        "GiaTri": "D:\\AutoBot\\Resources\\Capture\\Taskon\\Steo 02 Click Connect",
+        "PhamViTimKiem": "Full",
+        "PhamVi": "0, 0, 0, 0",
+        "ThoiGianTimKiem": 4,
+        "DoChinhXac": 80,
+        "NgoaiLe": "Default"
+      },
+      "Option": {
+        "DiemClick": "0, 0",
+        "KieuChuot": "Left",
+        "ChiemChuot": false,
+        "SoClick": 1,
+        "ThoiGianNghi": 100
+      },
+      "GhiChu": "Step 02 Click Connect",
+      "Stt": 10
+    },
+    {
+      "Name": "Tạm Nghỉ",
+      "Target": null,
+      "Data": {
+        "PhanLoai": "Time Cố Định",
+        "TimeOut": 2,
+        "DonVi": "Giây"
+      },
+      "Option": null,
+      "GhiChu": null,
+      "Stt": 11
+    },
+    {
+      "Name": "Click",
+      "Target": {
+        "PhanLoai": "Cửa Sổ Phụ",
+        "ThongTin": {
+          "TuyChon": "Tiêu Đề Có Chứa Text",
+          "Text": "Zerion"
+        }
+      },
+      "Data": {
+        "PhanLoai": "Hình Ảnh Bất Kì Trong Thư Mục",
+        "GiaTri": "D:\\AutoBot\\Resources\\Capture\\Taskon\\Step 03 Click Sign",
+        "PhamViTimKiem": "Full",
+        "PhamVi": "0, 0, 0, 0",
+        "ThoiGianTimKiem": 4,
+        "DoChinhXac": 80,
+        "NgoaiLe": "Default"
+      },
+      "Option": {
+        "DiemClick": "0, 0",
+        "KieuChuot": "Left",
+        "ChiemChuot": false,
+        "SoClick": 1,
+        "ThoiGianNghi": 100
+      },
+      "GhiChu": "Step 03 Click Sign",
+      "Stt": 12
+    },
+    {
+      "Name": "Tạm Nghỉ",
+      "Target": null,
+      "Data": {
+        "PhanLoai": "Time Cố Định",
+        "TimeOut": 2,
+        "DonVi": "Giây"
+      },
+      "Option": null,
+      "GhiChu": null,
+      "Stt": 13
+    }
+  ]
+}

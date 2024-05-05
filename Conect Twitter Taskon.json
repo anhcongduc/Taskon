@@ -1,0 +1,111 @@
+{
+  "ScriptName": "Conect Twitter Taskon",
+  "Steps": [
+    {
+      "Name": "in Đóng Tab Khác",
+      "Target": null,
+      "Data": null,
+      "Option": null,
+      "GhiChu": null,
+      "Stt": 0
+    },
+    {
+      "Name": "Resize",
+      "Target": {
+        "PhanLoai": "Cửa Sổ Chính"
+      },
+      "Data": {
+        "KichThuoc": "400, 600",
+        "PercentW": 100,
+        "PercentH": 100
+      },
+      "Option": {
+        "TuyChon": "Default"
+      },
+      "GhiChu": null,
+      "Stt": 1
+    },
+    {
+      "Name": "Mở Link",
+      "Target": null,
+      "Data": {
+        "Tab": "Tab Hiện Tại",
+        "PhanLoai": "Input Link",
+        "GiaTri": "https://taskon.xyz/settings"
+      },
+      "Option": null,
+      "GhiChu": null,
+      "Stt": 2
+    },
+    {
+      "Name": "Gửi Phím",
+      "Target": {
+        "PhanLoai": "Cửa Sổ Indirect"
+      },
+      "Data": {
+        "PhanLoai": "Phím",
+        "GiaTri": "RETURN",
+        "TimeOut": 100
+      },
+      "Option": {
+        "isActive": false
+      },
+      "GhiChu": null,
+      "Stt": 3
+    },
+    {
+      "Name": "Tạm Nghỉ",
+      "Target": null,
+      "Data": {
+        "PhanLoai": "Time Cố Định",
+        "TimeOut": 10,
+        "DonVi": "Giây"
+      },
+      "Option": null,
+      "GhiChu": null,
+      "Stt": 4
+    },
+    {
+      "Name": "Click",
+      "Target": {
+        "PhanLoai": "Cửa Sổ Indirect"
+      },
+      "Data": {
+        "Index": 0,
+        "PhanLoai": "XPath",
+        "KieuGiaTri": "Input",
+        "GiaTri": "/html/body/div[1]/div/div[3]/div[1]/div[1]"
+      },
+      "Option": null,
+      "GhiChu": null,
+      "Stt": 5
+    },
+    {
+      "Name": "Tạm Nghỉ",
+      "Target": null,
+      "Data": {
+        "PhanLoai": "Time Cố Định",
+        "TimeOut": 5,
+        "DonVi": "Giây"
+      },
+      "Option": null,
+      "GhiChu": null,
+      "Stt": 6
+    },
+    {
+      "Name": "Click",
+      "Target": {
+        "PhanLoai": "Cửa Sổ Indirect"
+      },
+      "Data": {
+        "Index": 0,
+        "PhanLoai": "XPath",
+        "KieuGiaTri": "Input",
+        "GiaTri": "//*[@id=\"react-root\"]/div/div/div[2]/main/div/div/div[2]/div/div/div[1]/div[3]/div/div/span/span"
+      },
+      "Option": null,
+      "GhiChu": null,
+      "Stt": 7
+    }
+  ]
+}
